@@ -13,5 +13,5 @@ Config
 
 1. Add `ip_interceptor` to `INSTALLED_APPS`.
 2. Add `ip_interceptor.middleware.IPInterceptorMiddleware` to `MIDDLEWARE`.
-3. Run `./manage.py make migrations ip_interceptor` and `./manage.py migrate ip_interceptor`.
+3. Run `./manage.py makemigrations ip_interceptor` and `./manage.py migrate ip_interceptor`.
 4. Add IP you want to block to `ForbiddenIP`.
